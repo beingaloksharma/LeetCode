@@ -5,22 +5,35 @@ Given an array of integers `nums` and an integer `target`, return indices of the
 You may assume that each input would have `exactly one solution`, and you may not use the same element twice.
 
 > [!NOTE]  
-> Example 
-> Input: nums = [1,2,0]
-> Output: 3
-> Explanation: The numbers in the range [1,2] are all in the array.
+> Example   
+> Input: nums = [1,2,0]  
+> Output: 3  
+> Explanation: The numbers in the range [1,2] are all in the array.  
 
 > [!NOTE] 
-> Example 
-> Input: nums = [3,4,-1,1]
-> Output: 2
-> Explanation: 1 is in the array but 2 is missing.
+> Example   
+> Input: nums = [3,4,-1,1]  
+> Output: 2  
+> Explanation: 1 is in the array but 2 is missing.  
 
-> [!NOTE] 
-> Example 
-> Input: nums = [7,8,9,11,12]
-> Output: 1
-> Explanation: The smallest positive integer 1 is missing.
+> [!NOTE]      
+> Example      
+> Input: nums = [7,8,9,11,12]     
+> Output: 1    
+> Explanation: The smallest positive integer 1 is missing.      
+
+> [!NOTE]     
+> Example    
+> Input: nums = [1,2,0]     
+> Output: 3    
+> Explanation: The numbers in the range [1,2] are all in the array.      
+
+> [!NOTE]     
+> Example      
+> Input: nums = [3,4,-1,1]       
+> Output: 2       
+> Explanation: 1 is in the array but 2 is missing.             
+
 
 # Constraints
 
